@@ -4,7 +4,12 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "20",
     "prettier": "^3.3.0",
-    "typescript": "^5.4.5"
+    "typescript": "5.5.0-beta"
+  },
+  "pnpm": {
+    "overrides": {
+      "typescript": "$typescript"
+    }
   },
   "prettier": {
     "semi": false,

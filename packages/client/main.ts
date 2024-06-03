@@ -1,7 +1,7 @@
 import parse from "yargs"
 import { hideBin } from "yargs/helpers"
 import { UnknownAction, configureStore } from "@reduxjs/toolkit"
-import { nikki, nikkiReducer } from "../common/src/logic"
+import { nikki, nikkiReducer } from "../common/src"
 
 const input = parse(process.argv.slice(3))
 const args = await input.argv
