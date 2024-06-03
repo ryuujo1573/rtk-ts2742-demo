@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.5",
+    "common": "workspace:^",
+    "redux": "^5.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "@types/yargs": "^17.0.32",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "tsx main.ts"
+  }
+}

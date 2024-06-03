@@ -1,0 +1,16 @@
+{
+  "module": "true",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "20",
+    "prettier": "^3.3.0",
+    "typescript": "^5.4.5"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2
+  },
+  "scripts": {
+    "build": "pnpm --filter ..client build"
+  }
+}
